@@ -105,3 +105,15 @@ body {
     transform: translate(-150px,450px);
     z-index: -1;
 }
+.elipse{
+    display: inline-block;
+    position: absolute;
+    width: 446px;
+    height: 446px;
+    flex-shrink: 0;
+    border-radius: 446px;
+    background: #F3D6D1;
+    filter: blur(75px);
+    transform: translate(-300px,300px);
+    z-index: -2;
+}
