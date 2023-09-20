@@ -117,3 +117,37 @@ body {
     transform: translate(-300px,300px);
     z-index: -2;
 }
+.color{
+    text-align: center;
+    padding: 45px;
+}
+.color__title{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.color__description{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+.color_list{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.color__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 275px;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
