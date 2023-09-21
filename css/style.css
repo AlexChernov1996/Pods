@@ -151,3 +151,38 @@ body {
     border: 1px solid gray;
     border-radius: 20px;
 }
+.composition{
+    padding: 80px;
+    text-align: center;
+}
+.composition__header{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.composition__title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.composition__description{
+    padding: 20px 0;
+    width: 650px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+.composition__content{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 150px;
+}
+.composition__content--descriptionList{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
