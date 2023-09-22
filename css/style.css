@@ -186,3 +186,15 @@ body {
     align-items: flex-start;
     gap: 80px;
 }
+.case{
+    max-height: 800px;
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 100px 0;
+}
+.case__title{
+    padding: 80px 0 20px;
+}
+.case__description{
+padding-bottom: 40px;
+}
