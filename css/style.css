@@ -187,7 +187,6 @@ body {
     gap: 80px;
 }
 .case{
-    max-height: 800px;
     background-color: #FAFAFA;
     text-align: center;
     padding: 100px 0;
@@ -197,4 +196,73 @@ body {
 }
 .case__description{
 padding-bottom: 40px;
+}
+.count{
+    font-size: 210px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.hours{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px 0 100px;
+}
+.audio{
+    height: 200vh;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+.audio::after{
+    content: '';
+    background-image: url("../images/audio-bg.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: top center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+.audio__container{
+    max-width: 300px;
+    padding-bottom: 100px;
+}
+.audio_description{
+    color: white;
+    padding: 20px 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+.audio__btn{
+    color: black;
+    background-color: white;
+}
+.audio__footer{
+    background: black;
+    height: 250px;
+    width: 100%;
+    position: relative;
+    z-index: -2;
+}
+.audio::before{
+    content: '';
+    background-image: url("../images/sound-bg.png");
+    background-repeat: no-repeat ;
+    background-position: bottom center ;
+    background-size: cover;
+    left: 0;
+    bottom: -250px;
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    z-index: -1;
 }
