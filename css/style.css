@@ -209,30 +209,34 @@ padding-bottom: 40px;
     padding: 20px 0 100px;
 }
 .audio{
-    height: 200vh;
-    text-align: center;
-    display: flex;
-    align-items: flex-end;
-    position: relative;
-}
-.audio::after{
+    height: 220vh;
     content: '';
-    background-image: url("../images/audio-bg.jpg");
+    background-image: url("../images/audio-full-bg.jpg");
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: top center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -2;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
 }
+/*.audio::after{*/
+/*    content: '';*/
+/*    background-image: url("../images/audio-bg.jpg");*/
+/*    background-repeat: no-repeat ;*/
+/*    background-size: cover;*/
+/*    background-position: top center;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    position: absolute;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    z-index: -2;*/
+/*}*/
 .audio__container{
     max-width: 300px;
-    padding-bottom: 100px;
+    padding-bottom: 50vh;
 }
 .audio_description{
     color: white;
@@ -250,19 +254,42 @@ padding-bottom: 40px;
     background: black;
     height: 250px;
     width: 100%;
-    position: relative;
-    z-index: -2;
+
 }
-.audio::before{
-    content: '';
-    background-image: url("../images/sound-bg.png");
-    background-repeat: no-repeat ;
-    background-position: bottom center ;
-    background-size: cover;
-    left: 0;
-    bottom: -250px;
-    width: 100%;
-    height: 150vh;
-    position: absolute;
-    z-index: -1;
+/*.audio::before{*/
+/*    content: '';*/
+/*    background-image: url("../images/sound-bg.png");*/
+/*    background-repeat: no-repeat ;*/
+/*    background-position: bottom center ;*/
+/*    background-size: cover;*/
+/*    left: 0;*/
+/*    bottom: -250px;*/
+/*    width: 100%;*/
+/*    height: 150vh;*/
+/*    position: absolute;*/
+/*    z-index: -1;*/
+/*}*/
+.footer{
+    padding: 50px 0 20px;
+    background-color: black;
+    max-height: 40vh;
+    text-align: center;
+}
+.footer__link{
+    color: #FAFAFA;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 10px 0 15px;
+}
+.footer__tel{
+    padding: 20px 0;
+}
+.footer__list{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 80px 0 40px;
 }
